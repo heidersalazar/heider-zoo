@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <title> Bararida </title>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width, user-scalable=no, ie=edge, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="formulario.css">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+	<script type="text/javascript" src="validar.js"></script>
+		
+</head>
+
+<body bgcolor="#E5E7E9">
+    <header class="header">
+    <div id="header">
+   <div class="cabecera">
+      <nav> 
+        <table class="table">
+        <tr>
+        <td>
+        <td width="120px">
+            <a href="index.html"><img src="bararida.jpg" class="logo"></a>
+        </td>
+        <td><center>
+        <ul class="nav">
+          <li> <a href="index.html"> Gestionar Personal </a></li>
+          <li><a href=""> Gestionar Animales </a></li>
+          <li><a href=""> Gestionar Alimentación </a></li>
+          <li><a href=""> Gestionar Habitad </a></li>
+        </ul>
+        </td></center>
+        </tr>
+        </table>
+      </nav>
+      </div>
+     </div>
+   </header>
+    <br>
+  <br>
+
+
+ 
+  <center><h1><font color=green> Gestionar Personal </font></h1></center></a><br>
+  <center><h2><font color=green> Esta sección es para el registro del personal que elabora en el zoológico </font></h2></center></a><br>
+
+  
+<!FORMULARIO DE REGISTRO!>
+
+  <div class="form-register">
+	
+  <section>
+
+  <form id="formulario" action="mostrar.php" class="form-register" method="post">
+   
+   <legend><center><h3>Formulario de Registro</h3><br></center></legend>
+    
+    <label for="nombres"><h4> Nombres </h4></label>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese los Nombres"pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" maxlength="40" >
+    
+   <label for="apellidos"><h4> Apellidos </h4></label>
+    <input class="controls" type="text" name="apellidos" id="apellidos"  placeholder="Ingrese los Apellidos" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"maxlength="20" >
+    
+    
+    <label for="cedula"><h4> Cedula </h4></label>
+    <input class="controls" type="text" name="cedula" id="cedula" placeholder="Ingrese la cedula" pattern="[0-9]{8}" maxlength="8">
+    
+   <label for="cargos"><h4> Cargo </h4></label>
+    <input class="controls" type="text" name="cargos" id="cargos"  placeholder="Ingrese el cargo" maxlength="20">
+    
+
+    <label for="correo"><h4> Correo Electrónico </h4></label>    
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese el Correo" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" maxlength="50">
+    
+    <label for="telefono"><h4> Telefono </h4></label>
+    <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese el telefono" pattern="[0-9]{11}" maxlength="11">
+    
+    <label for="direccion"><h4> Dirección </h4></label>
+     <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese la dirección" pattern="[a-zA-Z0-9àáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{3,90}"maxlength="90">
+      
+    <h4> Genero </h4>
+     <label for="male">Hombre: </label>
+      <input type="radio" name="sexo" id="M">
+      
+      <label for="female">Mujer: </label>
+      <input type="radio" name="sexo" id="F">
+         <br>
+    
+  
+                <button class="botons"  type="button" id= "enviar"  >Enviar</button>
+                <button class="botons" type="button" id= "borrar" >Limpiar</button>
+                <button class="botons" type="button"  id= "cerrar">Salir</button>
+          
+  </div>
+  </form>
+  </section>
+  <br>
+	
+  <footer>
+		<center><h3> COPYRIGHT © 2020 Heider Salazar </h3></center>
+  </footer>
+
+
+</body>
+</html>

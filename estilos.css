@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+	body {
+       margin:0 auto;
+        padding:0 auto;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+      }
+      
+      header { position: fixed;
+        width:100%;
+        overflow: hidden;         
+        margin:0 auto;
+        background:#B3B6B7;
+        font-family:'M PLUS Rounded 1c', sans-serif;
+      }
+      
+      
+      li a {
+      	background:#fff;
+
+      }
+
+       ul, ol {
+        list-style:none;
+      }
+      
+     p
+     {
+  text-align: justify;
+	font-size: 17px;
+	font-family:'M PLUS Rounded 1c', sans-serif;
+     }
+     
+     h1
+     {
+	font-size: 40px;
+	color: blue;
+	font-family:'M PLUS Rounded 1c', sans-serif;
+     }
+
+
+     li {
+    text-align: justify;
+	font-size: 17px;
+	font-family:'M PLUS Rounded 1c', sans-serif;
+    
+          }
+   
+   input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+  width: 100%;
+  color: #FF0404;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+    img {
+
+height:90px;  
+left: 900px;
+right: 100px;
+}
+
+footer {
+             
+    position: relative;
+    width:100%;
+    background:#3AB81B;
+    padding: 20px;
+    margin: auto;
+          }
+
+
+
+    #list{
+      background: rgba(0, 54, 255);
+    	border: 1px;
+    	border-color: #fff;
+    }
+    
+    #list:hover{
+      background: rgb(225, 225, 255);
+    	color:black;
+    }
+      .nav {
+        top:10px;
+        background:#3CFF33;
+        width:800px;         
+        margin:0 auto; 
+    
+      }
+
+      .nav a {
+        position:relative;
+        text-decoration:none;
+
+      }
+      
+      .nav > li {
+      float:left;
+      margin:0;
+      padding:0;
+      list-style:none;
+      background:transparent;
+      cursor:default;
+      
+      }
+
+  
+      .nav li a {
+        background-color:#3AB81B;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+      }
+      
+      .nav li a:hover {
+        background-color:#24820C;
+      }
+      
+      .nav li ul {
+        padding-top:7px; 
+        margin:0;
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      .nav li:hover > ul {
+        display:block;
+      }
+      
+      .nav li ul li {
+        position:relative;
+      }
+      
+      .nav li ul li ul {
+        right:-140px;
+        top:0px;
+      }
+
+      .cabecera{
+             
+             position: relative;
+             width:100%;
+           background:#3AB81B;
+           padding: 20px;
+           margin: auto;
+          }
+          .header{
+             
+             position: relative;
+             width:100%;
+           background:#3AB81B;
+           padding: 5px;
+          }
+
+
+  .imagen{
+    color:#3AB81B;
+    margin: 0;
+    display:inline-block;
+    height: 50px;
+    float:none;
+    left:1000px
+    right:0px;
+}
+}
+.left {
+	position:left;
+    color: blue;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
+.table {
+	list-style:none;
+	margin:0 auto;
+	color:#3AB81B;
+	height: 50%;
+	position:relative;
+	display:block;
+	right:950px;
+	left:50px;
+
+   }
